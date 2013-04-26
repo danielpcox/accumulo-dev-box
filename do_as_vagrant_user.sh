@@ -11,7 +11,7 @@ ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 
-10.211.55.100   vm-single-node
+10.211.55.100   accumulo-dev-box
 EOF
 
 # Do everything else as vagrant

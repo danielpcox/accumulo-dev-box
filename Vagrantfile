@@ -9,11 +9,11 @@ Vagrant.configure("2") do |config|
       v.vmx["memsize"]  = "4096"
     end
     master.vm.provider :virtualbox do |v|
-      v.name = "vm-single-node"
+      v.name = "accumulo-dev-box"
       v.customize ["modifyvm", :id, "--memory", "4096"]
     end
     master.vm.network :private_network, ip: "10.211.55.100"
-    master.vm.hostname = "vm-single-node"
+    master.vm.hostname = "accumulo-dev-box"
     master.vm.provision :shell, :path=> 'do_as_vagrant_user.sh'
   end
 
