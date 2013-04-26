@@ -6,7 +6,7 @@ and Accumulo 1.4.3.
 # Getting Started
 
 1. [Download and install VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-2. Install Vagrant (either with "gem install vagrant" or [from here](http://downloads.vagrantup.com))
+2. [Download and install Vagrant 1.2.2](http://downloads.vagrantup.com/tags/v1.2.2))
 3. Clone this project
 4. Run "vagrant up" from within the project directory. You'll need at least 3Gb free.
 5. Run "vagrant ssh" from within the project directory to get into your VM, or open up the VirtualBox
