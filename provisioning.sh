@@ -100,6 +100,15 @@ zookeeper-3.3.4-cdh3u3/bin/zkServer.sh start
 
 echo "Configuring Accumulo..."
 cp accumulo-1.4.3/conf/examples/1GB/standalone/* accumulo-1.4.3/conf/
+
+cat > ~/accumulo-1.4.3/conf/masters <<EOF
+accumulo-dev-box
+EOF
+
+cat > ~/accumulo-1.4.3/conf/slaves <<EOF
+accumulo-dev-box
+EOF
+
 sed -i 's/>secret</>password</' accumulo-1.4.3/conf/accumulo-site.xml
 accumulo-1.4.3/bin/accumulo init --clear-instance-name <<EOF
 accumulo
