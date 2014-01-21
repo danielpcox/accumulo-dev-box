@@ -1,4 +1,4 @@
-Since I am no longer working with accumulo, this repository is no longer maintained. Try imichaeldotorg's updated fork here: [https://github.com/imichaeldotorg/accumulo-dev-box/]
+Since I am no longer working with accumulo, this repository is no longer maintained. Try imichaeldotorg's updated fork here: https://github.com/imichaeldotorg/accumulo-dev-box/
 
 # Introduction
 
